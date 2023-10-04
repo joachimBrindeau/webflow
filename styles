@@ -1,0 +1,74 @@
+<style>
+.text_style_rich :first-child {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.text_style_rich :last-child {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+  padding:none;
+  margin:none;
+}
+
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+
+.text_limit_1l{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.text_limit_2l{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.text_limit_3l{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.text_limit_5l{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+section, header, aside {
+    z-index: 4;
+    width: 100%;
+    max-width: 80rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    flex-direction: column;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-auto-columns: 1fr;
+    margin: auto !important;
+    padding: 7rem 2rem !important;
+    display: flex;
+    position: relative;
+    }
+</style>
