@@ -55,7 +55,7 @@ font-size: inherit;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
 }
-section, header, aside {
+section, header, aside, footer {
     z-index: 4;
     width: 100%;
     max-width: 80rem;
