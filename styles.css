@@ -1,4 +1,3 @@
-<style>
 .text_style_rich :first-child {
     padding-top: 0 !important;
     margin-top: 0 !important;
@@ -71,4 +70,3 @@ section, header, aside {
     display: flex;
     position: relative;
     }
-</style>
