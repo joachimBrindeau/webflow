@@ -70,3 +70,6 @@ section, header, aside, footer {
     display: flex;
     position: relative;
     }
+a {
+text-underline-offset: 0.1rem;
+}
