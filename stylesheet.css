@@ -69,7 +69,14 @@ section, header, aside, footer {
     padding: 7rem 2rem !important;
     display: flex;
     position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    section, header, aside, footer {
+        margin: auto !important;
+        padding: 3rem 0.5rem !important;
     }
+}
 a {
 text-underline-offset: 0.1rem;
 }
